@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: black;
+    color: gold;
+}
+.center-box {
+    text-align: center;
+    margin-top: 20%;
+}
+.btn {
+    padding: 10px 20px;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 2px solid gold;
+}
+.btn-outline {
+    padding: 8px 18px;
+    border: 2px solid gold;
+    text-decoration: none;
+    border-radius: 8px;
+    color: gold;
+}
+.btn-outline:hover {
+    background: gold;
+    color: black;
+}
+.sidebar {
+    width: 200px;
+    background: #111;
+    height: 100vh;
+    position: fixed;
+    padding-top: 20px;
+    border-right: 2px solid gold;
+}
+.sidebar a {
+    display: block;
+    color: gold;
+    padding: 12px;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    background: gold;
+    color: black;
+}
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+h1 { color: gold; }
